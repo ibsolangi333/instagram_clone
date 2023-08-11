@@ -1,4 +1,7 @@
-
+.login-showing-images{
+    width: 270px;
+    margin-left: 20px;
+}
 .slider{
     width: 250px;
     height: 540px;
@@ -9,6 +12,7 @@
     animation: slide 15s linear infinite;
     position: absolute;
     z-index: 10;
+    top: 0;
 }
 @keyframes slide {
     0%{
@@ -28,16 +32,21 @@
     width: 320px;
     height: 572px;
     z-index: 1;
-    margin-left: -200px;
+    margin-left: -150px;
     margin-top: 25px;
 }
 .slider .mobile-frame{
     width: 290px;
     height: 572px;
-    margin-top: -15px;
+    margin-top: -10px;
     margin-left: -18px;
 }
 /* login form start  */
+.login-form-out-div{
+    width: 350px;
+    margin-right: -60px;
+    margin-left: 30px;
+}
 .login-form{
     border: 1px solid rgba(255, 255, 255, 0.674);
     border-radius: 2px;
@@ -131,4 +140,23 @@
 .sign-up-link h1 span{
     color: var(--main-color);
     font-weight: bold;
+}
+.get-app{
+    margin-top: 15px;
+}
+.get-app h1{
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    font-weight: lighter;
+}
+.get-app .links{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.get-app .links img{
+    width: 150px;
+    height: 45px;
+    margin: 5px;
 }
