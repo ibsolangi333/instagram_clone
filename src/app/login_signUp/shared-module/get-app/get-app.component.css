@@ -1,0 +1,19 @@
+.get-app{
+    margin-top: 15px;
+}
+.get-app h1{
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    font-weight: lighter;
+}
+.get-app .links{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.get-app .links img{
+    width: 150px;
+    height: 45px;
+    margin: 5px;
+}
