@@ -25,16 +25,16 @@
 }
 @keyframes slide {
     0%{
-        background-image: url('/assets/img-1.png');
+        background-image: url('/assets/login/slider/img-1.png');
     }
     30%{
-        background-image: url('/assets/img-2.png');
+        background-image: url('/assets/login/slider/img-2.png');
     }
     65%{
-        background-image: url('/assets/img-3.png');
+        background-image: url('/assets/login/slider/img-3.png');
     }
     100%{
-        background-image: url('/assets/img-4.png');
+        background-image: url('/assets/login/slider/img-4.png');
     }
 }
 .login-showing-images .slider .mobile-frame{
@@ -112,6 +112,14 @@
     font-size: 13px;
     color: rgba(217, 218, 222, 0.779);
     font-weight: bold;
+}
+.login-error{
+    margin-top: 10px;
+}
+.login-error h1{
+    font-size: 14px;
+    color: rgb(241, 152, 152);
+    text-align: center;
 }
 .forget-password{
     display: flex;

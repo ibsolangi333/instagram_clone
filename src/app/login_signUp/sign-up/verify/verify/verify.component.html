@@ -1,0 +1,42 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+            <div class="verify-form-out-div">
+                <form class="verify-form">
+                    <div class="phone">
+                        <img src="/assets/signup/phone.png" alt="">
+                        <span></span>
+                    </div>
+                    <div class="just-step-heading">
+                        <h1>Just one more step</h1>
+                    </div>
+                    <div class="enter-code">
+                        <h1>
+                            Enter the 6-digit code we sent to:<br>
+                            03xxxxxxxxx
+                        </h1>
+                    </div>
+                    <div class="form-group enter-code-field">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="######">
+                    </div>
+                    <button routerLink="/verify" class="w-100 next-button">Next</button>
+                    <div class="number-correction">
+                        <a routerLink="">Change Number</a>
+                        <span></span>
+                        <a routerLink="">Request New Code</a>
+                    </div>
+                </form>
+                <div class="sign-up-link">
+                    <h1 routerLink="/">Have an account? <span>Log in</span></h1>
+                </div>
+                <div class="mt-3">
+                    <app-get-app></app-get-app>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <app-footer></app-footer>
+    </div>
+</div>
