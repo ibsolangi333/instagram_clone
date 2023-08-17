@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./birthdate.component.css']
 })
 export class BirthdateComponent {
+  mydate = new Date(); 
 
 }

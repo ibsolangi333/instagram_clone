@@ -63,6 +63,12 @@
     margin-top: -10px;
     font-size: 12px;
 }
+.mobile-or-email-field,
+.fullname-field,
+.username-field,
+.password-field{
+    position: relative;
+}
 .mobile-or-email-field input,
 .fullname-field input,
 .username-field input,
@@ -74,6 +80,20 @@
     color: white;
     font-size: 13px;
     margin-top: -10px;
+}
+.fa-circle-check,
+.fa-circle-xmark{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.992);
+    top: 8px;
+    right: 5px;
+    font-size: 18px;
+}
+.fa-circle-check{
+    color: green;
+}
+.fa-circle-xmark{
+    color: rgba(255, 0, 0, 0.68);
 }
 .contact-information{
     display: flex;
