@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { VerifyRoutingModule } from './verify-routing.module';
 import { VerifyComponent } from './verify/verify.component';
 import { SharedModuleModule } from '../../shared-module/shared-module.module';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { SharedModuleModule } from '../../shared-module/shared-module.module';
   imports: [
     CommonModule,
     VerifyRoutingModule,
-    SharedModuleModule
+    SharedModuleModule,
+    ReactiveFormsModule
   ]
 })
 export class VerifyModule { }

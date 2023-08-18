@@ -16,9 +16,9 @@
                         <span class="text-center">OR</span>
                     </div>
                     <div class="form-group mobile-or-email-field">
-                        <input type="email" class="form-control" formControlName="emailOrPhone" aria-describedby="emailHelp"
+                        <input type="text" class="form-control" formControlName="emailOrPhone" aria-describedby="emailHelp"
                         placeholder="Mobile Number or Email">
-                        <i *ngIf="(signupForm['controls']['emailOrPhone'].valid)" class="fa-regular fa-circle-check"></i>
+                        <i *ngIf="(signupForm['controls']['emailOrPhone'].valid) && (signupForm['controls']['emailOrPhone'])" class="fa-regular fa-circle-check"></i>
                         <i *ngIf="
                         (submitted || signupForm['controls']['emailOrPhone'].touched)
                         && 
@@ -26,7 +26,7 @@
                          class="fa-regular fa-circle-xmark"></i>
                     </div>
                     <div class="form-group fullname-field">
-                        <input type="email" class="form-control" formControlName="fullname" aria-describedby="emailHelp"
+                        <input type="text" class="form-control" formControlName="fullname" aria-describedby="emailHelp"
                         placeholder="Full Name">
                         <i *ngIf="(signupForm['controls']['fullname'].valid)" class="fa-regular fa-circle-check"></i>
                         <i *ngIf="
@@ -36,7 +36,7 @@
                          class="fa-regular fa-circle-xmark"></i>
                     </div>
                     <div class="form-group username-field">
-                        <input type="email" class="form-control" formControlName="username" aria-describedby="emailHelp"
+                        <input type="text" class="form-control" formControlName="username" aria-describedby="emailHelp"
                         placeholder="Username">
                         <i *ngIf="(signupForm['controls']['username'].valid)" class="fa-regular fa-circle-check"></i>
                         <i *ngIf="

@@ -45,6 +45,9 @@
     color: rgba(252, 253, 254, 0.808);
     text-align: center;
 }
+.enter-code-field{
+    position: relative;
+}
 .enter-code-field input{
     border: none;
     background: transparent;
@@ -53,6 +56,20 @@
     color: white;
     font-size: 13px;
     margin-top: 10px;
+}
+.fa-circle-check,
+.fa-circle-xmark{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.992);
+    top: 8px;
+    right: 5px;
+    font-size: 18px;
+}
+.fa-circle-check{
+    color: var(--main-color);
+}
+.fa-circle-xmark{
+    color: rgba(255, 99, 71, 0.753);
 }
 .next-button{
     height: 30px;

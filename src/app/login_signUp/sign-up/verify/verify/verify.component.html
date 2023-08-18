@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-12 d-flex justify-content-center">
             <div class="verify-form-out-div">
-                <form class="verify-form">
+                <form [formGroup]="verifyForm" (ngSubmit)="onSubmit()" class="verify-form">
                     <div class="phone">
                         <img src="/assets/signup/phone.png" alt="">
                         <span></span>
@@ -17,8 +17,14 @@
                         </h1>
                     </div>
                     <div class="form-group enter-code-field">
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                            placeholder="######">
+                        <input type="text" class="form-control" formControlName="code" aria-describedby="emailHelp"
+                        placeholder="######">
+                        <i *ngIf="(verifyForm['controls']['code'].valid)" class="fa-regular fa-circle-check"></i>
+                        <i *ngIf="
+                        (submitted || verifyForm['controls']['code'].touched)
+                        && 
+                        (verifyForm['controls']['code'].errors)"
+                         class="fa-regular fa-circle-xmark"></i>
                     </div>
                     <button routerLink="/verify" class="w-100 next-button">Next</button>
                     <div class="number-correction">

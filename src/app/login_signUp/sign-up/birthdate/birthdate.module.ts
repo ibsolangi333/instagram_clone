@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { BirthdateRoutingModule } from './birthdate-routing.module';
 import { BirthdateComponent } from './birthdate/birthdate.component';
 import { SharedModuleModule } from '../../shared-module/shared-module.module';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { SharedModuleModule } from '../../shared-module/shared-module.module';
   imports: [
     CommonModule,
     BirthdateRoutingModule,
-    SharedModuleModule
+    SharedModuleModule,
+    ReactiveFormsModule
   ]
 })
 export class BirthdateModule { }

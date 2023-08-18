@@ -21,8 +21,8 @@ export class SignUpMainComponent {
     this.signupForm = this.signupFormBuilder.group({
       emailOrPhone:['',Validators.required],
       fullname:['',Validators.required],
-      username:['',Validators.required],
-      password:['',Validators.required],
+      username:['',[Validators.required,Validators.minLength(5)]],
+      password:['',[Validators.required,Validators.minLength(6)]],
     })
   }
 

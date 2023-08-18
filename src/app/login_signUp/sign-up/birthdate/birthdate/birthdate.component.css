@@ -72,6 +72,12 @@
     border-radius: 2px;
     font-size: 13px;
 }
+.birthday-fields select option{
+    color: black;
+}
+.birthdayError{
+    border: 1px solid tomato;
+}
 .descriptions{
     margin-top: 7px;
 }

@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-12 d-flex justify-content-center">
             <div class="birthday-form-out-div">
-                <form class="birthday-form">
+                <form [formGroup]="birthdateForm" (ngSubmit)="onSubmit()" class="birthday-form">
                     <div class="cake">
                         <img src="/assets/signup/cake.png" alt="">
                         <span></span>
@@ -17,21 +17,33 @@
                         </h1>
                     </div>
                     <div class="birthday-fields">
-                        <select name="" id="">
-                            <option value="">{{mydate | date:'MMMM'}}</option>
+                        <select formControlName="month" 
+                        [ngClass]="{'birthdayError' : 
+                        (submitted || birthdateForm['controls']['month'].touched) 
+                        && (birthdateForm['controls']['month'].errors)}">
+                            <option [selected]="select" value="8">{{mydate | date:'MMMM'}}</option>
+                            <option value="month">month</option>
                         </select>
-                        <select name="" id="">
-                            <option value="">{{mydate | date:'d'}}</option>
+                        <select formControlName="day"
+                        [ngClass]="{'birthdayError': 
+                        (submitted || birthdateForm['controls']['day'].touched)
+                        && (birthdateForm['controls']['day'].errors)}">
+                            <option [selected]="select" value="8">{{mydate | date:'d'}}</option>
+                            <option value="day">day</option>
                         </select>
-                        <select name="" id="">
-                            <option value="">{{mydate | date:'Y'}}</option>
+                        <select name="year" formControlName="year"
+                        [ngClass]="{'birthdayError': 
+                        (submitted || birthdateForm['controls']['year'].touched)
+                        && (birthdateForm['controls']['year'].errors)}">
+                            <option [selected]="select" value="">{{mydate | date:'Y'}}</option>
+                            <option value="year">year</option>
                         </select>
                     </div>
                     <div class="descriptions">
                         <h1>You need to enter the date you were born</h1>
                         <h1>Use your own birthday, even if this account is for a business, a pet, or something else.</h1>
                     </div>
-                    <button routerLink="/verify" class="w-100 next-button">Next</button>
+                    <button class="w-100 next-button">Next</button>
                     <div class="go-back">
                         <a routerLink="/signUp">Go Back</a>
                     </div>
