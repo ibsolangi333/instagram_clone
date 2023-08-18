@@ -65,6 +65,7 @@
     outline: none;
     background-color: rgba(234, 235, 240, 0.123);
     color: white;
+    font-size: 13px;
 }
 .password-field{
     margin-top: -10px;

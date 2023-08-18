@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 :root{
     --main-color: #3bbc80;
-    --theme-color: #12181d;
+    --theme-color: #000000;
 }
 body{
     background:  var(--theme-color);
