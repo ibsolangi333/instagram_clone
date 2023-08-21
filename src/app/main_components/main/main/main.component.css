@@ -32,7 +32,7 @@
 }
 .links-outer .links{
     display: flex;
-     padding: 10px 10px 5px 10px;
+    padding: 10px 10px 5px 10px;
     border-radius: 8px;
     cursor: pointer;
     margin-top: 10px;
@@ -40,13 +40,20 @@
 .links-outer .links:hover{
     background-color: rgba(255, 255, 255, 0.097);
 }
-.links-outer .links i{
+.icon{
     color: rgba(255, 255, 255, 0.932);
     font-size: 22px;
 }
-.links-outer .links h1{
+.heading{
     color: rgba(255, 255, 255, 0.932);
-    font-size: 16px;
+    font-size: 15px;
     margin-top: 5px;
     margin-left: 15px;
+}
+.active{
+    color: var(--main-color);
+    font-weight: bold;
+}
+.red{
+    color: red;
 }

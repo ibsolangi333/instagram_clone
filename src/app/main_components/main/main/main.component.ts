@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent {
-
+  icon=true;
+  heading=true;
 }

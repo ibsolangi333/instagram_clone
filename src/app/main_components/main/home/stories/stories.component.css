@@ -1,0 +1,33 @@
+.outer-div{
+    display: flex;
+    margin-top: 40px;
+}
+.story{
+    cursor: pointer;
+    margin: 7.3px;
+}
+.story .story-image{
+    width: 60px;
+    height: 60px;
+    border: 2px solid var(--main-color);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    /* justify-content: center; */
+    overflow: hidden;
+    padding: 2px;
+}
+.story .story-image img{
+    width: 100px;
+    height: 70px;
+    /* border-radius: 100px; */
+    background-size: cover;
+    margin-top: -5px;
+}
+.story h1{
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    color: #dadde1cf;
+}

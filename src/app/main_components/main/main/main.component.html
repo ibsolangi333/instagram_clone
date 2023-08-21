@@ -6,48 +6,55 @@
                     <img src="/assets/instagram-tittle-img.png" alt="">
                 </div>
                 <div class="links-outer">
-                    <div class="links">
-                        <i class="fa-solid fa-house"></i>
-                        <h1>Home</h1>
+                    <!-- <div class="links" routerLink="home">
+                        <i class="fa-solid fa-house" [ngClass]="{icon}" routerLink="home" routerLinkActive="active"
+                            [routerLinkActiveOptions]={exact:true}></i>
+                        <h1 routerLink="home" [ngClass]="{heading}" routerLinkActive="active"
+                            [routerLinkActiveOptions]={exact:true}>
+                            Home
+                        </h1>
+                    </div> -->
+                    <div class="links" routerLink="home">
+                        <i class="fa-solid fa-house" [ngClass]="{icon}"></i>
+                        <h1 [ngClass]="{heading}">Home</h1>
                     </div>
                     <div class="links">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <h1>Serach</h1>
+                        <i class="fa-solid fa-magnifying-glass" [ngClass]="{icon}"></i>
+                        <h1 [ngClass]="{heading}">Serach</h1>
                     </div>
                     <div class="links">
-                        <i class="fa-regular fa-compass"></i>
-                        <h1>Explore</h1>
+                        <i class="fa-regular fa-compass" [ngClass]="{icon}"></i>
+                        <h1 [ngClass]="{heading}">Explore</h1>
                     </div>
                     <div class="links">
-                        <i class="fa-solid fa-clapperboard"></i>
-                        <h1>Reels</h1>
+                        <i class="fa-solid fa-clapperboard" [ngClass]="{icon}"></i>
+                        <h1 [ngClass]="{heading}">Reels</h1>
                     </div>
                     <div class="links">
-                        <i class="fa-brands fa-facebook-messenger"></i>
-                        <h1>Messages</h1>
+                        <i class="fa-brands fa-facebook-messenger" [ngClass]="{icon}"></i>
+                        <h1 [ngClass]="{heading}">Messages</h1>
                     </div>
                     <div class="links">
-                        <i class="fa-regular fa-heart"></i>
-                        <h1>Notifications</h1>
+                        <i class="fa-regular fa-heart" [ngClass]="{icon}"></i>
+                        <h1 [ngClass]="{heading}">Notifications</h1>
                     </div>
                     <div class="links">
-                        <i class="fa-regular fa-square-plus"></i>
-                        <h1>Create</h1>
+                        <i class="fa-regular fa-square-plus" [ngClass]="{icon}"></i>
+                        <h1 [ngClass]="{heading}">Create</h1>
                     </div>
                     <div class="links">
-                        <i class="fa-solid fa-house"></i>
-                        <h1>Home</h1>
+                        <i class="fa-solid fa-house" [ngClass]="{icon}"></i>
+                        <h1 [ngClass]="{heading}">Home</h1>
                     </div>
                     <div class="links">
-                        <i class="fa-solid fa-bars"></i>
-                        <h1>More</h1>
+                        <i class="fa-solid fa-bars" [ngClass]="{icon}"></i>
+                        <h1 [ngClass]="{heading}">More</h1>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-9.5">
-            <div class="display-pages">
-            </div>
+            <router-outlet></router-outlet>
         </div>
     </div>
 </div>
