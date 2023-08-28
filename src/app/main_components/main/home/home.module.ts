@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { StoriesComponent } from './stories/stories.component';
 import { SuggestedComponent } from './suggested/suggested.component';
 import { PostOneComponent } from './post-one/post-one.component';
+import { MobileHeaderComponent } from './mobile-header/mobile-header.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { PostOneComponent } from './post-one/post-one.component';
     HomeComponent,
     StoriesComponent,
     SuggestedComponent,
-    PostOneComponent
+    PostOneComponent,
+    MobileHeaderComponent,
   ],
   imports: [
     CommonModule,

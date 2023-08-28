@@ -1,10 +1,31 @@
 .outer-div{
     display: flex;
     margin-top: 40px;
+    border: 1px solid red;
 }
 .story{
     cursor: pointer;
     margin: 7.3px;
+    position: relative;
+}
+.story .create-story{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 2px;
+}
+.story i{
+    font-size: 13px;
+    padding: 2px 3px 2px 3px;
+    background-color: rgb(0, 162, 255);
+    border-radius: 50px;
+    position: absolute;
+    color: white;
+    top: 42px;
+    right: 0px;
 }
 .story .story-image{
     width: 60px;
@@ -16,7 +37,8 @@
     overflow: hidden;
     padding: 2px;
 }
-.story .story-image img{
+.story .story-image img,
+.story .create-story img{
     width: 100px;
     height: 70px;
     background-size: cover;
@@ -37,7 +59,6 @@
 @media screen and (max-width: 615px){
     .outer-div{
         width: 100%;
-        overflow: hidden;
-        border: 1px solid red;
+        overflow: hidden;   
     }
 }

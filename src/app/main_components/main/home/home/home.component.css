@@ -57,9 +57,19 @@
         display: none;
     }
 }
-@media screen and (max-width: 615px){
+@media screen and (max-width: 668px){
     .scroll-page{
         width: 100%;
+        padding: 0px; 
+    }
+}
+@media screen and (max-width: 615px){
+    .outer-div{
+        padding: 0px 20px 0px 20px;
+    }
+    .scroll-page{
+        width: 100%;
+        /* padding: 0px;  */
     }
     .post{
         padding: 0px 10px 0px 10px;
