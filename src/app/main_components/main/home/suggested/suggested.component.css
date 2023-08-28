@@ -1,0 +1,63 @@
+.outer-div{
+    width: 300px;
+    /* border: 1px solid red; */
+    margin-top: 30px;
+}
+.suggest-for-you{
+    display: flex;
+    justify-content: space-between;
+}
+.suggest-for-you h1{
+    font-size: 13px;
+    color: rgba(210, 215, 229, 0.748);
+    font-weight: bold;
+}
+.suggest-for-you a{
+    font-size: 12px;
+    color: rgb(226, 228, 234);
+    font-weight: bold;
+    cursor: pointer;
+}
+.suggest-for-you a:hover{
+    color: rgba(255, 255, 255, 0.298);
+}
+.accounts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.accounts .image{
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.accounts .image img{   
+    width: 50px;
+    height: 50px;
+}
+.accounts .name{
+    margin-top: 10px;
+}
+.accounts .name h1{
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+
+}
+.accounts .name h1 span{
+    font-size: 12px;
+    font-weight: normal;
+    color: rgba(228, 228, 232, 0.684);
+}
+.accounts a{
+    color: var(--main-color);
+    font-size: 13px;
+    cursor: pointer;
+}
+.accounts a:hover{
+    color: white;
+}

@@ -1,10 +1,13 @@
 <div class="container-fluid out-div">
     <div class="row">
-        <div class="col-3">
+        <div class="col-xl-3 col-lg-1 col-md-1 col-sm-1">
             <div class="sidebar">
                 <div class="logo-image">
                     <img src="/assets/instagram-tittle-img.png" alt="">
                 </div>
+                <div class="insta-icon-logo">
+                    <i class="fa-brands fa-instagram"></i>
+               </div>
                 <div class="links-outer">
                     <!-- <div class="links" routerLink="home">
                         <i class="fa-solid fa-house" [ngClass]="{icon}" routerLink="home" routerLinkActive="active"
@@ -14,12 +17,12 @@
                             Home
                         </h1>
                     </div> -->
-                    <div class="links" routerLink="home">
+                    <div class="links">
                         <i class="fa-solid fa-house" [ngClass]="{icon}"></i>
                         <h1 [ngClass]="{heading}">Home</h1>
                     </div>
-                    <div class="links">
-                        <i class="fa-solid fa-magnifying-glass" [ngClass]="{icon}"></i>
+                    <div class="links search">
+                         <i class="fa-solid fa-magnifying-glass" [ngClass]="{icon}"></i>
                         <h1 [ngClass]="{heading}">Serach</h1>
                     </div>
                     <div class="links">
@@ -34,7 +37,7 @@
                         <i class="fa-brands fa-facebook-messenger" [ngClass]="{icon}"></i>
                         <h1 [ngClass]="{heading}">Messages</h1>
                     </div>
-                    <div class="links">
+                    <div class="links notifications">
                         <i class="fa-regular fa-heart" [ngClass]="{icon}"></i>
                         <h1 [ngClass]="{heading}">Notifications</h1>
                     </div>
@@ -46,14 +49,14 @@
                         <i class="fa-solid fa-house" [ngClass]="{icon}"></i>
                         <h1 [ngClass]="{heading}">Home</h1>
                     </div>
-                    <div class="links">
+                    <div class="links more">
                         <i class="fa-solid fa-bars" [ngClass]="{icon}"></i>
                         <h1 [ngClass]="{heading}">More</h1>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-9.5">
+        <div class="col-xl-9 col-lg-11 col-md-11 col-sm-12 display-pages">
             <router-outlet></router-outlet>
         </div>
     </div>
