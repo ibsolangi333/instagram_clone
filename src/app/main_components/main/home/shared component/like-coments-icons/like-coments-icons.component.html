@@ -1,0 +1,12 @@
+<div class="outer-div">
+    <div class="icons">
+        <i class="fa-regular fa-heart like" *ngIf="liked" (click)="like()"></i>
+        <i class="fa-solid fa-heart unlike" *ngIf="unliked" (click)="unlike()"></i>
+        <i class="fa-regular fa-comment comments"></i>
+        <i class="fa-regular fa-paper-plane share"></i>
+    </div>
+    <div class="icons">
+        <i class="fa-regular fa-bookmark save" *ngIf="saved" (click)="save()"></i>
+        <i class="fa-solid fa-bookmark unsave" *ngIf="unsaved" (click)="unsave()"></i>
+    </div>
+</div>

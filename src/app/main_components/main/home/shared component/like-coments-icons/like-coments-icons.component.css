@@ -1,0 +1,29 @@
+.outer-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px 15px 0px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+.icons .like,
+.icons .comments,
+.icons .share,
+.icons .save,
+.icons .unsave{
+    padding-left: 17px;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.737);
+    cursor: pointer;
+}
+.icons .unlike{
+    color: var(--main-color);
+    padding-left: 17px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.icons .like,
+.icons .unlike{
+    padding-left: 0px;
+}
