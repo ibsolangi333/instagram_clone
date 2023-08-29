@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+.mobile-header{
+    display: none;
+}
 .outer-div{
     display: flex;
     justify-content: space-between;
@@ -49,6 +52,7 @@
 }
 
 
+/* media quries */
 @media screen and (max-width: 1050px){
     .outer-div{
         justify-content: center;
@@ -61,6 +65,11 @@
     .scroll-page{
         width: 100%;
         padding: 0px; 
+    }
+}
+@media screen and (max-width: 766px){
+    .mobile-header{
+        display: block;
     }
 }
 @media screen and (max-width: 615px){

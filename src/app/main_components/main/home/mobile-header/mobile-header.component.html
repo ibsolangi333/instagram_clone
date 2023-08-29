@@ -7,11 +7,17 @@
                 </div>
                 <div class="search-and-notifications">
                     <div class="search">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <input type="text" placeholder="Search">
+                        <i class="fa-solid fa-magnifying-glass" *ngIf="searcIcon"></i>
+                        <input type="text" placeholder="Search" (click)="hideIcons()">
+                        <i class="fa-solid fa-circle-xmark" 
+                           (click)="removeSearchContent()" *ngIf="closeIcon">
+                        </i>
                     </div>
                     <div class="notifications">
                         <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="creat">
+                        <i class="fa-regular fa-square-plus"></i>
                     </div>
                 </div>
             </div>

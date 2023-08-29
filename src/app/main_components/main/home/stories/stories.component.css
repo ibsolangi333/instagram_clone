@@ -54,7 +54,12 @@
     overflow: hidden;
 }
 
-
+/* media qureis */
+@media screen and (max-width: 766px){
+    .outer-div{
+        margin-top: 70px;
+    }
+}
 @media screen and (max-width: 668px){
     .outer-div{
         width: 100%;
