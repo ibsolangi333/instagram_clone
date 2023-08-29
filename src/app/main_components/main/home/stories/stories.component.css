@@ -1,7 +1,6 @@
 .outer-div{
     display: flex;
     margin-top: 40px;
-    border: 1px solid red;
 }
 .story{
     cursor: pointer;
@@ -56,9 +55,19 @@
 }
 
 
+@media screen and (max-width: 668px){
+    .outer-div{
+        width: 100%;
+        overflow: hidden;   
+        display: flex;
+        padding-left: 30px;
+    }
+}
 @media screen and (max-width: 615px){
     .outer-div{
         width: 100%;
         overflow: hidden;   
+        justify-content: space-between;
+        padding: 0;
     }
 }
