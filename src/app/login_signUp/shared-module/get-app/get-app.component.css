@@ -4,7 +4,7 @@
 .get-app h1{
     text-align: center;
     font-size: 13px;
-    color: white;
+    color: var(--text-1);
     font-weight: lighter;
 }
 .get-app .links{

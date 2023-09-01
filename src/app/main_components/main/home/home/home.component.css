@@ -5,27 +5,25 @@
 .mobile-header{
     display: none;
 }
+ /* home page scroll start */
 .outer-div{
     display: flex;
     justify-content: space-between;
-    /* width: 100%; */
 }
 .scroll-page{
     width: 600px;
-    height: 300px;
-    /* border: 1px solid red; */
 }
 .post{
     width: 100%;
-    /* border: 1px solid red; */
     padding: 0px 50px 0px 50px;
 }
+
+/* suggested start*/
 .suggested{
     width: 430px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 1px solid red;  */
     margin-top: 50px;
 }
 .profile{
@@ -42,15 +40,16 @@
 }
 .headings h1{
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.908);
+    color: var(--text-3);
     margin-top: 5px;
     font-weight: bold;
 }
 .headings h1 span{
     font-weight: lighter;
-    color: rgba(255, 255, 255, 0.686);
+    color: var(--text-8);
 }
-
+/* suggested end */
+ /* home page scroll end */
 
 /* media quries */
 @media screen and (max-width: 1050px){

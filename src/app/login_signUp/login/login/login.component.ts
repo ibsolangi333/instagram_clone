@@ -34,7 +34,7 @@ export class LoginComponent {
       this.loginForm.controls['password'].value != 'user123'
       )
     {
-      this.formError = true      
+      this.formError = true 
     }
     else{
       this.router.navigate(['/main'])

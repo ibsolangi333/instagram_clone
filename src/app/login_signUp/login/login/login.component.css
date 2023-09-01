@@ -1,4 +1,4 @@
-/* login-showing-images start  */
+/* login-shown-images start  */
 .login-showing-images{
     width: 270px;
     margin-right: 50px;
@@ -43,13 +43,13 @@
     margin-top: -10px;
     margin-left: -18px;
 }
-/* login-showing-images end */
+/* login-shown-images end */
 /* login form start  */
 .login-form-out-div{
     width: 350px;
 }
 .login-form{
-    border: 1px solid rgba(255, 255, 255, 0.674);
+    border: 1px solid var(--text-6);
     border-radius: 2px;
     padding: 40px;
     padding-bottom: 15px;
@@ -63,8 +63,8 @@
     border: none;
     background: transparent;
     outline: none;
-    background-color: rgba(234, 235, 240, 0.123);
-    color: white;
+    background-color: var(--text-17);
+    color: var(--text-1);
     font-size: 13px;
 }
 .password-field{
@@ -73,7 +73,7 @@
 .login-button{
     height: 30px;
     background-color: var(--main-color);
-    color: white;
+    color: var(--text-1);
     border: none;
     outline: none;
     border-radius: 7px;
@@ -81,7 +81,7 @@
     font-size: 14px;
 }
 .or-line{
-    background-color: rgba(228, 228, 234, 0.463);
+    background-color: var(--text-10);
     height: 1px;
     margin-top: 25px;
     position: relative;
@@ -92,7 +92,7 @@
     width: 50px;
     height: 25px;
     background-color: var(--theme-color);
-    color: rgba(211, 211, 214, 0.616);
+    color: var(--text-10);
     font-weight: bold;
     position: absolute;
     margin-top: -10px;
@@ -111,7 +111,7 @@
 .fb-link h1{
     margin-left: 10px;
     font-size: 13px;
-    color: rgba(217, 218, 222, 0.779);
+    color: var(--text-6);
     font-weight: bold;
 }
 .login-error{
@@ -128,11 +128,11 @@
     margin-top: 10px;
 }
 .forget-password h1{
-    color: rgba(255, 255, 255, 0.654);
+    color: var(--text-7);
     font-size: 12px;
     cursor: pointer;
 }
-/* login form start  */
+/* login form end  */
 /* sign up links and get app start */
 .sign-up-link{
     display: flex;
@@ -140,23 +140,20 @@
     padding: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.674);
+    border: 1px solid var(--text-6);
     border-radius: 2px;
     margin-top: 10px;
     cursor: pointer ;
 }
 .sign-up-link h1{
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.906);
+    color: var(--text-2);
 }
 .sign-up-link h1 span{
     color: var(--main-color);
     font-weight: bold;
 }
-
 /* sign up links and get app end */
-
-
 
 /* media quries */
 @media screen and (max-width: 875px) {

@@ -3,7 +3,7 @@
     margin-top: 15px;
 }
 .birthday-form{
-    border: 1px solid rgba(255, 255, 255, 0.674);
+    border: 1px solid var(--text-6);
     border-radius: 2px;
     padding: 40px;
     padding-top: 20px;
@@ -21,7 +21,7 @@
 .birthday-form .cake span{
     width: 50px;
     height: 2px;
-    background-color: rgba(255, 255, 255, 0.599);
+    background-color: var(--text-8);
     position: absolute;
     bottom: -5px;
 }
@@ -32,7 +32,7 @@
 }
 .add-birthday h1{
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.714);
+    color: var(--text-6);
     font-weight: bold;
 }
 .why-provide-birthday{
@@ -42,7 +42,7 @@
 }
 .why-provide-birthday h1{
     font-size: 14px;
-    color: rgba(252, 253, 254, 0.808);
+    color: var(--text-5);
     text-align: center;
 }
 .why-provide-birthday h1 span{
@@ -52,7 +52,7 @@
 .next-button{
     height: 30px;
     background-color: var(--main-color);
-    color: white;
+    color: var(--text-1);
     border: none;
     outline: none;
     border-radius: 7px;
@@ -67,7 +67,7 @@
 .birthday-fields select{
     padding: 7px;
     background: transparent;
-    color: rgba(255, 255, 255, 0.763);   
+    color: var(--text-5);   
     margin: 5px;
     border-radius: 2px;
     font-size: 13px;
@@ -83,7 +83,7 @@
 }
 .descriptions h1{
     font-size: 13px;
-    color: rgba(255, 255, 255, 0.759);
+    color: var(--text-5);
     text-align: center;
 }
 .descriptions :nth-child(2){
@@ -108,14 +108,14 @@
     padding: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.674);
+    border: 1px solid var(--text-6);
     border-radius: 2px;
     margin-top: 10px;
     cursor: pointer ;
 }
 .sign-up-link h1{
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.906);
+    color: var(--text-5);
 }
 .sign-up-link h1 span{
     color: var(--main-color);

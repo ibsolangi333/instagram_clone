@@ -3,7 +3,7 @@
     margin-top: 15px;
 }
 .signUp-form{
-    border: 1px solid rgba(255, 255, 255, 0.674);
+    border: 1px solid var(--text-6);
     border-radius: 2px;
     padding: 40px;
     padding-bottom: 40px;
@@ -19,7 +19,7 @@
 }
 .signUp-description h1{
     font-size: 17px;
-    color: rgba(238, 238, 243, 0.728);
+    color: var(--text-6);
     text-align: center;
 }
 .fb-link{
@@ -35,7 +35,7 @@
 }
 .fb-link .fa-square-facebook{
     font-size: 20px;
-    color: 	white;
+    color: 	var(--text-1);
     margin-top: 3px;
 }
 .fb-link h1{
@@ -46,7 +46,7 @@
     margin-top: 5px;
 }
 .or-line{
-    background-color: rgba(228, 228, 234, 0.463);
+    background-color: var(--text-10);
     height: 1px;
     position: relative;
     display: flex;
@@ -57,7 +57,7 @@
     width: 50px;
     height: 25px;
     background-color: var(--theme-color);
-    color: rgba(211, 211, 214, 0.616);
+    color: var(--text-10);
     font-weight: bold;
     position: absolute;
     margin-top: -10px;
@@ -76,7 +76,7 @@
     border: none;
     background: transparent;
     outline: none;
-    background-color: rgba(234, 235, 240, 0.123);
+    background-color: var(--text-17);
     color: white;
     font-size: 13px;
     margin-top: -10px;
@@ -84,7 +84,6 @@
 .fa-circle-check,
 .fa-circle-xmark{
     position: absolute;
-    color: rgba(255, 255, 255, 0.992);
     top: 8px;
     right: 5px;
     font-size: 18px;
@@ -102,7 +101,7 @@
 }
 .contact-information h1{
     font-size: 12.5px;
-    color: rgba(243, 243, 243, 0.563);
+    color: var(--text-8);
     text-align: center;
 }
 .contact-information h1 span{
@@ -116,7 +115,7 @@
 }
 .policy-and-privacy h1{
     font-size: 12.5px;
-    color: rgba(243, 243, 243, 0.563);
+    color: var(--text-8);
     text-align: center;
 }
 .policy-and-privacy h1 span{
@@ -126,7 +125,7 @@
 .SinUp-button{
     height: 30px;
     background-color: var(--main-color);
-    color: white;
+    color: var(--text-1);
     border: none;
     outline: none;
     border-radius: 7px;
@@ -134,7 +133,6 @@
     font-size: 14px;
     margin-top: 10px;
 }
-/* login form start  */
 
 .sign-up-link{
     display: flex;
@@ -142,7 +140,7 @@
     padding: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.674);
+    border: 1px solid var(--text-6);
     border-radius: 2px;
     margin-top: 10px;
     cursor: pointer ;

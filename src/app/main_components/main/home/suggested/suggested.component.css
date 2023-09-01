@@ -2,23 +2,24 @@
     width: 300px;
     margin-top: 30px;
 }
+/* accounts  */
 .suggest-for-you{
     display: flex;
     justify-content: space-between;
 }
 .suggest-for-you h1{
     font-size: 13px;
-    color: rgba(210, 215, 229, 0.748);
+    color: var(--text-6);
     font-weight: bold;
 }
 .suggest-for-you a{
     font-size: 12px;
-    color: rgb(226, 228, 234);
+    color: var(--text-4);
     font-weight: bold;
     cursor: pointer;
 }
 .suggest-for-you a:hover{
-    color: rgba(255, 255, 255, 0.298);
+    color: var(--text-12);
 }
 .accounts{
     display: flex;
@@ -44,13 +45,13 @@
 .accounts .name h1{
     font-size: 13px;
     font-weight: bold;
-    color: white;
+    color: var(--text-1);
 
 }
 .accounts .name h1 span{
     font-size: 12px;
     font-weight: normal;
-    color: rgba(228, 228, 232, 0.684);
+    color: var(--text-6);
 }
 .accounts a{
     color: var(--main-color);
@@ -58,8 +59,9 @@
     cursor: pointer;
 }
 .accounts a:hover{
-    color: white;
+    color: var(--text-1);
 }
+/* accounts end */
 /* bottom links */
 .bottom-links{
     margin-top: 40px;
@@ -68,7 +70,7 @@
 .second-row a,
 .copy-right h1{
     font-size: 12px;
-    color: rgba(255, 255, 255, 0.339);
+    color: var(--text-12);
     text-decoration: none;
     margin-left: 5px;
 }
@@ -83,3 +85,4 @@
 .copy-right h1{
     text-transform: uppercase;
 }
+/* bottom links end */

@@ -14,7 +14,7 @@
 .icons .unsave{
     padding-left: 17px;
     font-size: 22px;
-    color: rgba(255, 255, 255, 0.737);
+    color: var(--text-5);
     cursor: pointer;
 }
 .icons .unlike{

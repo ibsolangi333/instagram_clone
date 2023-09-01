@@ -22,7 +22,7 @@
     background-color: rgb(0, 162, 255);
     border-radius: 50px;
     position: absolute;
-    color: white;
+    color: var(--text-1);
     top: 42px;
     right: 0px;
 }
@@ -46,11 +46,9 @@
 .story h1{
     width: 60px;
     font-size: 12px;
-    color: white;
     text-align: center;
     margin-top: 10px;
-    color: #dadde1cf;
-    /* border: 1px solid red; */
+    color: var(--text-6);
     overflow: hidden;
 }
 

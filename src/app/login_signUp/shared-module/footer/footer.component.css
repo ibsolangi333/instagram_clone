@@ -6,7 +6,7 @@
 }
 .bottom-links h1{
     font-size: 13px;
-    color: rgba(255, 255, 255, 0.839);
+    color: var(--text-5);
     font: lighter;
     margin: 7px;
 }
@@ -29,7 +29,7 @@
 .languages select{
     background: transparent;
     border: none;
-    color: rgba(255, 255, 255, 0.839);
+    color: var(--text-5);
     font-size: 12px;
 }
 

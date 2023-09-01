@@ -3,7 +3,7 @@
     margin-top: 15px;
 }
 .verify-form{
-    border: 1px solid rgba(255, 255, 255, 0.674);
+    border: 1px solid var(--text-6);
     border-radius: 2px;
     padding: 40px;
     padding-top: 20px;
@@ -21,7 +21,7 @@
 .verify-form .phone span{
     width: 30px;
     height: 2px;
-    background-color: rgba(255, 255, 255, 0.599);
+    background-color: var(--text-8);
     position: absolute;
     bottom: -5px;
 }
@@ -32,7 +32,7 @@
 }
 .just-step-heading h1{
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.714);
+    color: var(--text-6);
     font-weight: bold;
 }
 .enter-code{
@@ -42,7 +42,7 @@
 }
 .enter-code h1{
     font-size: 14px;
-    color: rgba(252, 253, 254, 0.808);
+    color: var(--text-5);
     text-align: center;
 }
 .enter-code-field{
@@ -52,15 +52,14 @@
     border: none;
     background: transparent;
     outline: none;
-    background-color: rgba(234, 235, 240, 0.123);
-    color: white;
+    background-color: var(--text-17);
+    color: var(--text-1);
     font-size: 13px;
     margin-top: 10px;
 }
 .fa-circle-check,
 .fa-circle-xmark{
     position: absolute;
-    color: rgba(255, 255, 255, 0.992);
     top: 8px;
     right: 5px;
     font-size: 18px;
@@ -74,7 +73,7 @@
 .next-button{
     height: 30px;
     background-color: var(--main-color);
-    color: white;
+    color: var(--text-1);
     border: none;
     outline: none;
     border-radius: 7px;
@@ -96,25 +95,23 @@
 .number-correction span{
     width: 2px;
     height: 20px;
-    background-color: rgba(255, 255, 255, 0.705);
+    background-color: var(--text-8);
     margin: 0px 7px 0px 7px;
 }
-
-
 .sign-up-link{
     display: flex;
     justify-content: center;
     padding: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.674);
+    border: 1px solid var(--text-6);
     border-radius: 2px;
     margin-top: 10px;
     cursor: pointer ;
 }
 .sign-up-link h1{
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.906);
+    color: var(--text-5);
 }
 .sign-up-link h1 span{
     color: var(--main-color);
