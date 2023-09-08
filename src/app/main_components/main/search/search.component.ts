@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent {
+  searcIcon:boolean = true;
+  closeIcon:boolean = false;
+  hideIcons(){
+    this.searcIcon=false;
+    this.closeIcon=true;
+  }
+  removeSearchContent(){
+    this.searcIcon=true;
+    this.closeIcon=false;
+  }
 
 }

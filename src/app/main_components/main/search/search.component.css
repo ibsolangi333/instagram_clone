@@ -1,0 +1,116 @@
+/* search heading and input */
+.search-heading-and-input{
+    padding: 0px 15px 0px 15px;
+}
+.search-heading{
+    padding: 25px 0px 25px 0px;
+}
+.search-heading h1{
+    font-size: 23px;
+    font-weight: bold;
+    color: var(--text-3);
+}
+.search-input-field{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 7px;
+    background-color: #262626;
+}
+.search-input-field i{
+    color: var(--text-8);
+    padding: 0px 10px 0px 10px;
+}
+.search-input-field .fa-circle-xmark{
+    cursor: pointer;
+    font-size: 13px;
+}
+.search-input-field input{
+    width: 100%;
+    height: 40px;
+    border-radius: 7px;
+    background-color: #262626;
+    border: none;
+    outline: none;
+    color: white;
+    padding-left: 5px;
+}
+.search-input-field input::placeholder{
+    color: var(--text-8);
+    font-size: 15px;
+    font-weight: normal;
+}
+
+/* user accounts */
+.user-accounts{
+    border-top: 1px solid var(--text-16);
+    margin-top: 20px;
+}
+.recent-and-clear{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0px 15px 0px 15px;
+}
+.recent-and-clear h1{
+    font-size: 15px;
+    color: var(--text-4);
+    font-weight: bold;
+}
+.recent-and-clear h2{
+    font-size: 14px;
+    color: var(--main-color);
+    cursor: pointer;
+}
+.recent-and-clear h2:hover{
+    color: var(--text-2);
+}
+.users{
+    display: flex;
+    position: relative;
+    /* border: 1px solid red; */
+    padding: 7px 15px 7px 15px;
+    cursor: pointer;
+}
+.users:hover{
+    background-color: var(--text-19);
+}
+.image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.image img{
+    width: 60px;
+    height: 60px;
+}
+.heading{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.heading h1{
+    color: var(--text-3);
+    font-size: 13px;
+    font-weight: bold;
+}
+.heading h1 i{
+    color: #184bf2;
+}
+.heading h1 span{
+    color: var(--text-8);
+    font-weight: normal;
+}
+.users .remove{
+    color: var(--text-6);
+    position: absolute;
+    right: 27px;
+    top: 22px;
+    font-size: 20px;
+}

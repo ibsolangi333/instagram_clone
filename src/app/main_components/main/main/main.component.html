@@ -47,7 +47,7 @@
                         <h1 *ngIf="LinkNameHeading">Create</h1>
                     </div>
                     <div class="links" (click)="profile()">
-                        <img src="assets/main_components/home/profile.jpg" alt="">
+                        <img src="assets/main_components/profile.jpg" alt="">
                         <h1 *ngIf="LinkNameHeading">Profile</h1>
                     </div>
                     <div class="links more" (click)="more()">
@@ -64,11 +64,12 @@
         </div>
         <!-- search bar -->
         <div class="search-bar" [style.marginLeft]="searchBarDisplay">
-
+            <app-search></app-search>
         </div>
         <!-- notifications bar -->
-        <div class="notifications-bar" [style.marginLeft]="notificationsBarDisplay">
-
+        <div class="notifications-bar" style="margin-left: 300px; border: 1px solid red;">
+            <!-- [style.marginLeft]="notificationsBarDisplay" -->
+            <app-notifications></app-notifications>
         </div>
     </div> 
 </div>

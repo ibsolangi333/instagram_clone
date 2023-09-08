@@ -1,1 +1,118 @@
-<p>search works!</p>
+<div class="outer-div">
+    <!-- searc hedaing and input -->
+    <div class="search-heading-and-input">
+        <div class="search-heading">
+            <h1>Search</h1>
+        </div>
+        <div class="search-input-field">
+            <i class="fa-solid fa-magnifying-glass" *ngIf="searcIcon"></i>
+            <input type="text" placeholder="Search" (click)="hideIcons()">
+            <i class="fa-solid fa-circle-xmark" 
+               (click)="removeSearchContent()" *ngIf="closeIcon">
+            </i>
+        </div>
+    </div>
+    <!-- user accounts -->
+    <div class="user-accounts">
+        <div class="recent-and-clear">
+            <h1>Recent</h1>
+            <h2>Clear all</h2>
+        </div>
+        <div class="users">
+            <div class="image">
+                <img src="assets/main_components/person 1.jpg" alt="">
+            </div>
+            <div class="heading">
+                <h1>
+                    Mohammad Ibrahim108 <i class="fa-solid fa-circle-check"></i><br>
+                    <span>mohammad ibrahim 9.4M followers</span>
+                </h1>
+            </div>
+            <i class="fa-solid fa-xmark clas remove"></i>
+        </div>
+        <div class="users">
+            <div class="image">
+                <img src="assets/main_components/person 2.jpg" alt="">
+            </div>
+            <div class="heading">
+                <h1>
+                    Mohammad Ibrahim1718<br>
+                    <span>mohammad ibrahim following</span>
+                </h1>
+            </div>
+            <i class="fa-solid fa-xmark clas remove"></i>
+        </div>
+        <div class="users">
+            <div class="image">
+                <img src="assets/main_components/person 3.jpg" alt="">
+            </div>
+            <div class="heading">
+                <h1>
+                    Mohammad Ibrahim816<br>
+                    <span>mohammad ibrahim 151 followers</span>
+                </h1>
+            </div>
+            <i class="fa-solid fa-xmark clas remove"></i>
+        </div>
+        <div class="users">
+            <div class="image">
+                <img src="assets/main_components/person 4.jpg" alt="">
+            </div>
+            <div class="heading">
+                <h1>
+                    Mohammad Ibrahim17<br>
+                    <span>mohammad ibrahim following</span>
+                </h1>
+            </div>
+            <i class="fa-solid fa-xmark clas remove"></i>
+        </div>
+        <div class="users">
+            <div class="image">
+                <img src="assets/main_components/person 1.jpg" alt="">
+            </div>
+            <div class="heading">
+                <h1>
+                    Mohammad Ibrahim108 <i class="fa-solid fa-circle-check"></i><br>
+                    <span>mohammad ibrahim 9.4M followers</span>
+                </h1>
+            </div>
+            <i class="fa-solid fa-xmark clas remove"></i>
+        </div>
+        <div class="users">
+            <div class="image">
+                <img src="assets/main_components/person 2.jpg" alt="">
+            </div>
+            <div class="heading">
+                <h1>
+                    Mohammad Ibrahim1718<br>
+                    <span>mohammad ibrahim following</span>
+                </h1>
+            </div>
+            <i class="fa-solid fa-xmark clas remove"></i>
+        </div>
+        <div class="users">
+            <div class="image">
+                <img src="assets/main_components/person 3.jpg" alt="">
+            </div>
+            <div class="heading">
+                <h1>
+                    Mohammad Ibrahim816<br>
+                    <span>mohammad ibrahim 151 followers</span>
+                </h1>
+            </div>
+            <i class="fa-solid fa-xmark clas remove"></i>
+        </div>
+        <div class="users">
+            <div class="image">
+                <img src="assets/main_components/person 4.jpg" alt="">
+            </div>
+            <div class="heading">
+                <h1>
+                    Mohammad Ibrahim17<br>
+                    <span>mohammad ibrahim following</span>
+                </h1>
+            </div>
+            <i class="fa-solid fa-xmark clas remove"></i>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,70 @@
+
+.main-heading{
+    padding: 10px 0px 10px 0px;
+}
+.main-heading h1{
+    font-size: 23px;
+    color: var(--text-2);
+    font-weight: bold;
+}
+.users-outer{
+    margin-top: 10px;
+}
+.duration-heading{
+    padding: 0px 0px 0px 10px;
+}
+.duration-heading h1{
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--text-2);
+}
+.user{
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: 1px solid red;
+    cursor: pointer;
+}
+.user:hover{
+    background-color: var(--text-19);
+}
+.image{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.image img{
+    width: 50px;
+    height: 50px;
+}
+.user-info-heading{
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.user-info-heading h1{
+    font-size: 13px;
+    color: var(--text-3);
+    font-weight: bold;
+    border: 1px solid red;
+}
+.follow-btn{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+.follow-btn button{
+    padding: 6px 22px 6px 22px;
+    border: none;
+    outline: none;
+    background-color: var(--main-color);
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+}

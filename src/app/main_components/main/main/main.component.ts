@@ -33,13 +33,6 @@ export class MainComponent {
 
   // search function
   search(){
-    // link heading
-    if(this.LinkNameHeading = true){
-      this.LinkNameHeading=false
-    }
-    else{
-      this.LinkNameHeading=true
-    }
     // image logo
     if(this.logoImage=true){
       this.logoImage=false
@@ -48,15 +41,33 @@ export class MainComponent {
       this.logoImage=true
     }
     // icon logo
-    this.logoIcon=true
+    if(this.logoIcon==false){
+      this.logoIcon=true
+    }
+    else{
+      this.logoIcon=false
+      this.logoImage=true
+    }
     // search bar display
     if(this.searchBarDisplay =="-405px"){
-      this.searchBarDisplay="75px"
+      this.searchBarDisplay="85px"
     }
     else{
       this.searchBarDisplay="-405px"
     };
     this.notificationsBarDisplay="-405px";
+    // link heading
+    if(this.LinkNameHeading == true){
+      this.LinkNameHeading=false
+    }
+    else if(this.searchBarDisplay=="85px"){
+      this.LinkNameHeading=false
+      this.logoImage=false
+      this.logoIcon=true
+    }
+    else{
+      this.LinkNameHeading=true
+    }
   }
   // explore function
   explore(){
@@ -87,13 +98,6 @@ export class MainComponent {
 
   // notifications function
   notifications(){
-    // link heading
-    if(this.LinkNameHeading = true){
-      this.LinkNameHeading=false
-    }
-    else{
-      this.LinkNameHeading=true
-    }
     // image logo
     if(this.logoImage=true){
       this.logoImage=false
@@ -102,17 +106,33 @@ export class MainComponent {
       this.logoImage=true
     }
     // icon logo
-    if(this.logoIcon=true){
+    if(this.logoIcon==false){
       this.logoIcon=true
+    }
+    else{
+      this.logoIcon=false
+      this.logoImage=true
     }
     // notifications bar display
     if(this.notificationsBarDisplay =="-405px"){
-      this.notificationsBarDisplay="75px"
+      this.notificationsBarDisplay="85px"
     }
     else{
       this.notificationsBarDisplay="-405px"
     }
     this.searchBarDisplay="-405px"
+    // link heading
+    if(this.LinkNameHeading == true){
+      this.LinkNameHeading=false
+    }
+    else if(this.notificationsBarDisplay=="85px"){
+      this.LinkNameHeading=false
+      this.logoImage=false
+      this.logoIcon=true
+    }
+    else{
+      this.LinkNameHeading=true
+    }      
   }
 
   // create function
